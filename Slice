@@ -1,0 +1,26 @@
+'''
+Created on 2017年4月26日
+
+@author: 15050960
+
+切片[]：适用于list，元组，字符串
+'''
+#list切片
+# li=[1,2,3]
+# print(li[0:3])
+# print(li[0:3:2])#取基数值
+# li2=li[:]#复制一个list
+# print(li2)
+
+#元组切片
+# arr=(1,2,3,4)
+# print(arr[0:3])
+# print(arr[1:4:3])
+# arr2=arr[:]
+# print(arr2)
+
+#字符串切片
+str='abc'
+print(str[0:3])
+print(str[0:3:2])
+print(str[:])
